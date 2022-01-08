@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+.textoComprar{
+    text-transform: uppercase;
+}
+.precioDiseño{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-weight: bold;
+}
+img{
+    width: 200px;
+    height: 300px;
+}
+.columnaProductos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.btnDark{
+    width: 90px !important;
+    height: 70px;
+    
+}
+
+.carrusel{
+    height: 500px;
+}
+.imgCarrusel{
+    height: 500px;
+}
+
+.carrito{
+    text-align: center;
+    background-color: #f5f5f5;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+.parrafoCarrito{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+}
+.bannerNombreCarrito{
+    background-color: gray;
+    color: white;
+    border-radius: 100px;
+    font-size: 20px;
+    padding: 10px;
+    height: 50px;
+}
+.input{
+    margin: 0 auto;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footerText{
+    padding: 50px;
+    padding-top: 20px;
+    text-align: justify;
+    padding-bottom: 0px;
+}
